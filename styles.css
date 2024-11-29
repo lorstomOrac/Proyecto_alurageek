@@ -1,0 +1,97 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #5300C8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Formulario */
+  .add-product {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .add-product h2 {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #product-form input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #000080;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    color: #000080;
+    padding: 10px 20px;
+    border: 2px solid #000080;
+    border-radius: 5px;
+  }
+  
+  /* Productos */
+  .product-list {
+    padding: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #5300C8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #5300C8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
