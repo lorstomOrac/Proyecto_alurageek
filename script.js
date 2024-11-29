@@ -2,7 +2,7 @@ const form = document.getElementById('product-form');
 const productsContainer = document.getElementById('products-container');
 let products = [];
 
-// Cargar productos desde el JSON
+
 fetch('products.json')
   .then(response => response.json())
   .then(data => {
@@ -10,7 +10,7 @@ fetch('products.json')
     displayProducts();
   });
 
-// Agregar un producto
+
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const name = document.getElementById('name').value;
@@ -22,7 +22,6 @@ form.addEventListener('submit', (event) => {
   displayProducts();
 });
 
-// Mostrar productos
 function displayProducts() {
   productsContainer.innerHTML = '';
   products.forEach((product) => {
